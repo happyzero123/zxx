@@ -7,21 +7,22 @@ class About extends React.Component {
       root:{
         margin:'5vh auto'
       },
-      sp:{
-        padding:'1vh 4vh',
-        lineHeight:'7vh',
-        textAlign:'center',
-        borderRadius:'5px',
-        backgroundColor:'#ff4081',
-        color:'#fff',
-        marginRight:'20vh'
+      hh:{
+        color:'#16b5c5',
+        marginBottom:'6vh',
+        fontSize:'3vw',
+        textShadow:'4px 6px 5px #ccc',
+        fontWeight:'600',
+        fontFamily:'微软雅黑'
       }
+
     }
     return(
       <div style={styles.root}>
-        <span style={styles.sp}>基本资料</span>
-        <span style={styles.sp}>个人技能</span>
+        <h2 style={styles.hh}>About Me</h2>
         <Message  />
+
+
       </div>
     )
   }

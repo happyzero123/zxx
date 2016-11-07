@@ -18,7 +18,7 @@ class BlogCard extends React.Component {
         height:'80px',
         paddingTop:'10px',
         borderRadius: '10px',
-        backgroundColor:'#512DA8',
+        backgroundColor:'#1fc8db',
         margin:'9px 10px'
       },
       num:{
