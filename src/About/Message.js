@@ -51,7 +51,8 @@ class Message extends React.Component {
         margin:'0 auto',
         marginBottom:'7vh',
         display:'block',
-        width:'12vw'
+        width:'12vw',
+        fontSize:'1.5vw'
       }
     }
     return(
